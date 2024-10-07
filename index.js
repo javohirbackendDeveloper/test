@@ -1,2 +1,5 @@
-const Hello = require("muhammadali-dev")
-console.log(Hello());
+function calcage(year) {
+  return new Date().getFullYear() - year + " yoshdasiz"
+}
+
+console.log(calcage(2008));
